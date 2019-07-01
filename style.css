@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #151515;
+}
+
+#wrapper {
+    min-height: 300px;
+    width: 1000px;
+    background-color: #151515;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+
+/* header section */
+
+#header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: inline-block;
+}
+
+#header img {
+    margin-top: 10px;
+    color: #1a1a1a;
+    width: 300px;
+}
+
+#header p {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    margin-left: 480px;
+    margin-top: 15px;
+    color: #cfcfcf;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* nav section */
+
+#nav ol {
+    background-image: linear-gradient(#353535, #515151, #1f1f1f);
+    padding: 20px 40px;
+    line-height: 100%;
+}
+
+#nav ol li {
+    color: #a1a09f;
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-lines {
+    font-size: 30px;
+    color: #383838;
+}
+
+.sep-line {
+    display: inline-block;
+    font-size: 30px;
+    color: #383838;
+    margin-left: 248px;
+}
+
+#nav .home-nav {
+    color: #dbdbdb;
+    margin-left: 10px;
+}
+
+
+/* main image section */
+
+#main-img img {
+    width: 100%;
+    border-bottom: 5px solid #3b3b3b;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+
+
+/* info box section */
+
+#minfo-box {
+    display: inline-block;
+    background-color: #1b1b1b;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.info-box {
+    display: inline-block;
+    vertical-align: top;
+    height: 190px;
+    width: 246px;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.box {
+    display: inline-block;
+}
+
+.box img {
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+
+.box h3 {
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    left: 65px;
+    color: #db7c2c;
+    font-weight: bold;
+}
+
+.box p {
+    color: lightgray;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    left: 65px;
+    font-size: 16px;
+}
+
+
+/* random info section */
+
+#random-info {
+    display: inline-block;
+    background-color: #050505;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#random-info h1 {
+    display: inline-block;
+    color: #f1f1f1;
+    font-size: 25px;
+    margin-bottom: 15px
+}
+
+#random-info p {
+    display: inline-block;
+    color: lightgray;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#random-info input {
+    display: inline-block;
+    position: relative;
+    left: 75px;
+    bottom: 35px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 50px;
+    width: 135px;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(#f29856 50%, #ef802e 50%);
+    border: none;
+}
+
+
+/* portfolio section */
+
+#portfolio {
+    display: inline-block;
+    background-color: #1b1b1b;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 30px 0px 30px;
+}
+
+.port-title h2 {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    vertical-align: top;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+}
+
+.port-title a {
+    display: inline-block;
+    height: 30px;
+    width: 155px;
+    color: #e37f2c;
+    text-decoration: none;
+    font-style: italic;
+    vertical-align: top;
+    position: relative;
+    left: 680px;
+    bottom: 0px;
+}
+
+.port-box {
+    display: inline-block;
+    vertical-align: bottom;
+    height: auto;
+    width: 231px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.port-box img {
+    display: block;
+    box-sizing: border-box;
+    border: 6px solid #363636;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.port-box h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #db7c2c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.port-box p {
+    color: lightgray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+.end-text {
+    color: #747678;
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
